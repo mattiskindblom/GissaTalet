@@ -11,12 +11,14 @@ public class YesOrNo {
             JOptionPane.showMessageDialog(null, "Wei ju dent gif me moanei");
 
         }
+        while (knappNr == 1) {JOptionPane.showMessageDialog(null, "Retard");
+
         JOptionPane.showMessageDialog(null, "pris: " + pris + "^5 kr");
 
         JOptionPane.showMessageDialog(null, "Abdios");
 
-        while (knappNr == 1) {JOptionPane.showMessageDialog(null, "Retard");
             JOptionPane.showMessageDialog(null, "You're stuck");
+            while (knappNr == 0) break;
             }
         }
 }
